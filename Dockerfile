@@ -7,4 +7,4 @@ COPY . .
 
 RUN pip install NLTK
 
-CMD ["python", "script.py"]
+CMD ["python", "python_script.py"]
