@@ -30,7 +30,7 @@ def print_character_occurrences(char_occurrences):
     for char, occurrence in char_occurrences.items():
         print(f"The character '{char}' appears {occurrence} times.")
 
-file_path = "/app/random_paragraphs.txt"
+file_path = "/app/paragraphs.txt"
 
 document = read_document(file_path)
 
